@@ -1,0 +1,72 @@
+.chart-filter-select {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px 0;
+  border-radius: 6px;
+}
+
+.chart-filter-select select {
+  width: 82px;
+  height: 28px;
+}
+
+.chart-container {
+  margin: 0 auto;
+  padding: 30px;
+  max-width: 1000px;
+}
+
+.chart-sort {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.chart-sort button {
+  padding: 8px 16px;
+  border: 1px solid lavenderblush;
+  border-radius: 10px;
+}
+
+.chart-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.chart-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.chart-table th {
+  font-size: 14px;
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+.album-rank {
+  text-align: center;
+}
+
+.album-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 84px;
+  padding: 0px;
+}
+
+.album-list {
+  border-bottom: 1px solid #ddd;
+}
+.album-title {
+  margin: 0;
+}
+
+.artist-name {
+  font-size: 14px;
+  margin: 0;
+  color: #969696;
+}
