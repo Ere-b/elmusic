@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. https://github.com/kyma-dev/elmusic.git
+1. git clone https://github.com/kyma-dev/elmusic.git
 2. cd elmusic
 3. yarn install
 4. yarn build && yarn preview
