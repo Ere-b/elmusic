@@ -1,9 +1,10 @@
 import { useNavigate } from 'react-router-dom';
+import '../../styles/NotFound.css';
 const NotFound = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="not-found">
       <h1>404 Not Found</h1>
       <p>요청하신 페이지를 찾을 수 없습니다.</p>
       <button
@@ -11,7 +12,7 @@ const NotFound = () => {
           navigate('/');
         }}
       >
-        Top 100 차트로 돌아가기
+        돌아가기
       </button>
     </div>
   );
