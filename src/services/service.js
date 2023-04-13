@@ -28,3 +28,18 @@ export const fetchAlbum = async (id) => {
     alert('Failed to load data');
   }
 };
+
+// 검색 결과 가져오기
+export const fetchSearchAlbum = async (searchText) => {
+  try {
+    const response = await axios.get(
+      `${BASE_URL}/us/rss/topalbums/limit=100/json`
+    );
+    const album = response.data.feed.entry.find(
+      (entry) => entry['im:name'].label === searchText
+    );
+    return album;
+  } catch (error) {
+    alert('Failed to load data');
+  }
+};
