@@ -12,7 +12,6 @@ const useSearch = () => {
     try {
       setIsLoading(true);
       const response = await fetchSearchAlbum(searchText);
-      console.log(response);
       setSearchResult(response);
       setIsLoading(false);
     } catch (error) {
